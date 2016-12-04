@@ -6,7 +6,7 @@ rm(list=ls())
 
 # 1. Merges the training and the test sets to create one data set.
 
-setwd("C:\\Users\\niandry\\Documents\\niandry\\Data science\\data\\UCI HAR Dataset")
+setwd("C:\\Users\\niandry\\Documents\\niandry\\Data science\\gettingandcleandata\\UCI HAR Dataset")
 
 # read train data
 trainsubject<-read.table("./train/subject_train.txt",header=FALSE)
@@ -69,5 +69,5 @@ colnames(alldata)<-cnames
 #the average of each variable for each activity and each subject. 
 
 finaldata <-aggregate(alldata[, !(colnames(alldata) %in% c("subjectid","activity"))], by=list(activity=alldata$activity,subjectid=alldata$subjectid), mean, na.rm=TRUE)
-write.table(finaldata, '../../gettingandcleandata/tidy_dataset.txt',row.names=TRUE,sep='\t')
+write.table(finaldata, '../tidy_dataset.txt',row.names=FALSE,sep='\t')
 

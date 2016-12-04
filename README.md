@@ -12,3 +12,5 @@ The script was build according the folowing instrucctions:
 6. Uses descriptive activity names to name the activity labels.
 7. Updating the columns names with more descriptive ones.
 8. Creating an independent tidy data set with #the average of each variable for each activity and each subject. 
+
+To run the code, please update the line number 9 with the path where the dataset was dowloaded.

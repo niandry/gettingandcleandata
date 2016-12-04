@@ -1,6 +1,6 @@
 # CookBook
 
-This code book summarizes the variables and summaries calculated. To run the code, please update the line number 9 with the path where the dataset was dowloaded.
+This code book summarizes the variables and summaries calculated. 
 
 # Input/Output datasets
 
