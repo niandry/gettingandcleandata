@@ -13,7 +13,7 @@ This code book summarizes the variables and summaries calculated. To run the cod
 * trainlabel - contain data from Y_test.txt
 * traindata - compiled test data
 * alldata - test and trained data compiledin a single dataset
-* finaldata - summarized dataset with mean of eachvariable by activity and subjec.
+* finaldata - summarized dataset with mean of each variable by activity and subject.
 
 # Measurements
 * TimeBodyAcceleration-mean-X	
